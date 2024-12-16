@@ -41,21 +41,23 @@ To get a local copy up and running follow these simple steps:
    npm install
    ```
 
-5. Start the backend server
+5. Set up environment variables
+
+   Create a `.env` file in the backend directory and add your database connection string and any other configuration variables needed for your application.
+
+6. Start the backend server
 
    ```bash
    cd backend
    npm run dev
    ```
 
-6. Start the frontend application
+7. Start the frontend application
 
    ```bash
    cd frontend
    npm run dev
    ```
-
-7. Don't forget to add your own connexion URL to MongoDB, you can create a variable for this in an .env file.
 
 ## Technologies Used
 
